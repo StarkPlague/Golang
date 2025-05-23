@@ -17,7 +17,7 @@ func Tambah_barang(gudang *Gudang, barang Barang) {
 
 func Tampilkan_barang(gudang Gudang) {
 	for i, v := range gudang.Daftar_barang {
-		fmt.Println("No. ", i+1, v.Nama_barang, " | Jumlah: ", v.Jumlah)
+		fmt.Println(i+1, ". ", v.Nama_barang, " | Jumlah: ", v.Jumlah)
 	}
 }
 
