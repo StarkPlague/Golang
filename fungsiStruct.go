@@ -39,3 +39,5 @@ func RunGudang() {
 	fmt.Println("Daftar Barang di Gudang:")
 	Tampilkan_barang(gudang)
 }
+
+//CLI Input gudang
