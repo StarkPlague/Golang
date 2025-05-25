@@ -29,15 +29,4 @@ func Total_barang(gudang Gudang) int {
 	return total
 }
 
-func RunGudang() {
-	gudang := Gudang{}
-	barang1 := Barang{"Buku", 10}
-	barang2 := Barang{"Pensil", 5}
-	Tambah_barang(&gudang, barang1)
-	Tambah_barang(&gudang, barang2)
-
-	fmt.Println("Daftar Barang di Gudang:")
-	Tampilkan_barang(gudang)
-}
-
 //CLI Input gudang
